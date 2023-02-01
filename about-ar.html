@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title dir="auto">عن OHG</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="css/investment.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <!-- font style -->
+    <link rel="stylesheet" href="fonts/AdobeArabic-Regular.otf">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="arabic">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="    position: absolute !Important;">
+        <div class="container px-1 px-lg-2">
+            <a class="navbar-brand" href="index-ar.html"><img id="Logo" src="/images/Logo/WhiteLogo.png" alt=""
+                    style="height: 70px;"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item p-7">
+                        <a dir="auto" class="nav-link navText" id="navRevenue" href="/about-ar.html">نبذة عن او اتش
+                            جي</a>
+                    </li>
+                    <li class="nav-item p-7">
+                        <a dir="auto" class="nav-link navText" id="navInvestment" href="/investment-ar.html">استثمار او
+                            اتش جي</a>
+                    </li>
+                    <li class="nav-item p-7">
+                        <a dir="auto" class="nav-link navText" id="navImpact" href="/impact-ar.html"> تأثير او اتش
+                            جي</a>
+                    </li>
+                    <li class="nav-item p-7">
+                        <a dir="auto" class="nav-link navText" id="navClients" href="/clients-ar.html">عملاء او اتش
+                            جي</a>
+                    </li>
+                    <li class="nav-item p-7">
+                        <a dir="auto" class="nav-link navText" id="navAwards" href="/awards-ar.html">جوائز او اتش جي</a>
+                    </li>
+                    <li class="nav-item p-7">
+                        <a dir="auto" class="nav-link navText" id="navContact" href="/contactUs-ar.html">اتصل بنا</a>
+                    </li>
+                </ul>
+                <span class="navbar-text navText" style="margin-left: 0px;">
+                    <a class="text-white" href="about.html" id="navLang"><i class="bi bi-list text-bolder"></i> EN</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Page header with logo and tagline-->
+    <header class="py-8 bg-light border-bottom mb-4" id="header" style="background-image: url(images/about/1.png);">
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <nav id="navbar-example3" class="navbar flex-column align-items-stretch p-3">
+                    <nav class="nav nav-pills flex-column text-right">
+                        <a class="nav-link active" id="about" onclick="changeImage('about')" dir="auto"
+                            style="padding-top: 0 !important;">عن او اتش جي</a>
+                        <a class="nav-link" id="revenue" onclick="changeImage('revenue')"
+                            style="padding-top: 0 !important;">الإيرادات</a>
+                        <a class="nav-link" id="objectives" onclick="changeImage('objectives')"
+                            style="padding-top: 0 !important;">أهدافنا</a>
+                        <a class="nav-link" id="vision" onclick="changeImage('vision')"
+                            style="padding-top: 0 !important;">رؤيتنا</a>
+                        <a class="nav-link" id="history" onclick="changeImage('history')"
+                            style="padding-top: 0 !important;">تاريخنا</a>
+                        <a class="nav-link" id="journey" onclick="changeImage('journey')"
+                            style="padding-top: 0 !important;">رحلتنا</a>
+                        <a class="nav-link" id="mission" onclick="changeImage('mission')"
+                            style="padding-top: 0 !important;">مهمتنا</a>
+                        <a class="nav-link" id="founder" onclick="changeImage('founder')"
+                            style="padding-top: 0 !important;">والد المؤسسين</a>
+                    </nav>
+                </nav>
+            </div>
+            <div class="col-lg-8 text-right">
+                <div class="tab_content active text-right" id="about">
+                    <p dir="auto">
+                        كشركة ، نسعى دائمًا إلى أن نكون حلاً عالميًا للوسائط المتعددة للشركات التي تقدم
+                        أكثر
+                        تسويق شامل وأحدث الحلول التقنية. نحن نقدم لعملائنا حاليًا
+                        أفضل جودة للخدمات
+                        في التسويق الرقمي. والعديد من الخدمات الداخلية. نحن نقدم لعملائنا أفضل ما يمكن
+                        حلول لهم
+                        الأعمال والتأكد من وصولها إلى أفضل حل ممكن. نحن نساعدهم في جميع أنحاء
+                        رحلة الاستثمار بجعل
+                        خدمات جديدة لعملائك أو حتى جعلهم يبدأون شركة جديدة بأكبر قدر من الكفاءة
+                        وبأقل تكلفة
+                        من خلال حلولنا المخفضة التكلفة. وقم ببنائها من خلال الإلمام بالعلامة التجارية الأصلية.
+                        تشغيل العلامة التجارية هو
+                        أسهل عندما تختارنا. نستخدم علم النفس والتكنولوجيا الحديثة والبيانات التي يتم جمعها عبر الخدمة
+                        سنوات. نحن على الطريق
+                        أبعد من شركة وسائط رقمية. سنضمن أن بياناتنا تجعلك تفوق توقعاتك
+                        حلول مبتكرة
+                        والخدمات. تساعد حلولنا الشاملة عملائنا في زيادة مبيعاتهم وإيراداتهم.
+                    </p>
+                </div>
+                <div class="tab_content text-right" id="revenue">
+                    <p dir="auto">
+                        نحن فخورون بالكشف عن نتائج أدائنا في عام 2022.
+                        لأول مرة في التاريخ ، حققنا أفضل أداء للعلامة التجارية في صناعتنا
+                        مكاسب كبيرة في حصة السوق
+                        وربحية قوية ، مما يؤدي إلى تحقيق قيمة تغيير فائقة لعملائنا.
+                        سنواصل السعي وراء التميز من خلال الابتكار والتعاون.
+                    </p>
+                    <div class="description">
+                        <p dir="auto">الربح</p>
+                        <!-- <p class="text-danger fs-4">87.6 m$</p> -->
+                        <span class="text-danger fs-4" style="font-weight: 700; font-size: 2rem !important;"
+                            dir="ltr">m$</span>
+                        <span class="text-danger fs-4" id="counter"
+                            style="font-weight: 700; font-size: 2rem !important;"></span>
+                        <span dir="auto" class="text-danger fs-4"></span>
+
+                        <p dir="auto">زيادة بنسبة ١١٪ بالعملة المحلية و ١٤٪ بالدولار الأمريكي اعتبارًا من عام ٢٠٢٠</p>
+                    </div>
+                    <div class="description">
+                        <p dir="auto">حجوزات جديدة</p>
+                        <span class="text-danger fs-4" style="font-weight: 700; font-size: 2rem !important;"
+                            dir="ltr">m$</span>
+                        <span dir="auto" class="text-danger fs-4" id="counter1"
+                            style="font-weight: 700; font-size: 2rem !important;"></span>
+                        <p dir="auto">كان فريق تطوير العلامة التجارية يعمل بجد لإنشاء علامة تجارية جديدة لـ [المنتج] أي
+                            كلاهما جديد ومثير
+                            مع الاحتفاظ بالقيم الأساسية للأصل.
+                            من خلال هذه العملية ، قمنا بزيادة المبيعات بالعملة المحلية بنسبة ١٧٪ والدولار الأمريكي بنسبة
+                            ٢٠٪
+                        </p>
+                    </div>
+                    <div class="description">
+                        <p dir="auto">التدفق النقدي الحر</p>
+                        <span class="text-danger fs-4" style="font-weight: 700; font-size: 2rem !important;"
+                            dir="ltr">m$</span>
+                        <span dir="auto" class="text-danger fs-4" id="counter2"
+                            style="font-weight: 700; font-size: 2rem !important;"></span>
+                        <p dir="auto">بلغ التدفق النقدي التشغيلي للشركة ٨.٤ مليون دولار ، بانخفاض قدره ٢٠ مليون دولار عن
+                            السابق
+                            عام.
+                            يرجع التغيير في المقام الأول إلى انخفاض صافي الدخل ، قابله جزئيًا انخفاض الاستهلاك و
+                            حساب الاستهلاك و
+                            مستويات مخزون أعلى.
+                        </p>
+                    </div>
+                    <div class="description">
+                        <span class="text-danger fs-4" style="font-weight: 700; font-size: 2rem !important;">%</span>
+                        <span class="text-danger fs-4" id="counter3"
+                            style="font-weight: 700; font-size: 2rem !important;"></span>
+                        <p dir="auto">
+                            تم إنشاء أعمال جديدة لخدمة العالم بشكل أفضل
+                        </p>
+                    </div>
+                    <div dir="auto" class="description d-flex flex-row align-items-center justify-content-start py-3">
+                        <img src="/images/poweredBy/Vanguard.png
+                       " alt="" style="padding: 10px 10px 0 10px;">
+                        <img src="/images/poweredBy/UBS.png" alt="" style="padding: 20px 10px 0 10px;">
+                        <img src="/images/poweredBy/BlackRock.png" alt="">
+                    </div>
+                </div>
+                <div class="tab_content text-right" id="bjective">
+                    <p dir="auto">
+                        طموحنا هو أن نكون المحرك الذي يقود التحول في إيرادات عملائنا وعائداتهم
+                        عملاء'
+                        إشباع. نسعى إلى زيادة تعزيز أدائهم من خلال بناء شراكات استراتيجية ،
+                        وإطلاق مبادرات
+                        مصممة للمساهمة في أهداف رؤية ٢٠٤٠.
+                    </p>
+                </div>
+                <div class="tab_content text-right" id="vision">
+                    <p dir="auto">سنزود عملائنا بأعلى مستوى من حلول الخدمة والبحث والاستثمار في مجال معظم العلامات
+                        التجارية المبتكرة والتطلعية والمتميزة.
+                    </p>
+                </div>
+                <div class="tab_content text-right" id="history">
+                    <p dir="auto">
+                        منذ تأسيسها ، او اتش جي. تطورت وتطورت إلى ستة أعمال مختلفة ، ولكل منها نطاق
+                        تركيز محدد. عمق
+                        رؤية المنظمة هي ما يجعل او اتش جي. ما هو - ومقتنياته هي انعكاس ل
+                        هذه الرؤية.
+                    </p>
+                </div>
+                <div class="tab_content text-right" id="journey">
+                    <p dir="auto">
+                        منذ ١٩٩٤ ، او اتش جي. لقد كان جوهرة لعملائنا. كانت رحلتنا ناجحة
+                        لأصحاب
+                        والعديد من الشركات الاستشارية التي ساهمت في رؤيتنا بأن نصبح شركة استثمار عالمية رائدة</p>
+                </div>
+                <div class="tab_content text-right" id="mission">
+                    <p dir="auto">
+                        سنستثمر على المدى الطويل لتعظيم العوائد المستدامة ، وسنكون الشريك الاستثماري المفضل للفرص
+                        العالمية والتنمية الاقتصادية لعملائنا الأوفياء المحبوبين.
+                    </p>
+                </div>
+                <div class="tab_content pt-0" id="father">
+                    <div class="father-img w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="p-2"><img src="images/asset/FatherHeaderCopy.png" alt="">
+                            </div>
+                            <div class="p-2">
+                                <p dir="auto" style="text-align: justify;">
+                                    أسسنا نحن معتصم ومنذر العمري مجموعة العمري القابضة في ١٩٩٤، ومن اهم استثماراتها
+                                    ويسبيرز جلوبال، براند فاوندر، فرينشايزر، كيان الاتحاد، ايكزيت ٩٩،جلوبال ريجستراشن
+                                    اسوسياشن بعد أكثر من ٣٠ عامًا استثنائيين كشركاء في شركة دولية كبيرة ، كان لدينا
+                                    منظور واحد للعمل وقيادة كل هذه الاستثمارات، قررنا أن الطريقة التي تم بناؤها هي أفضل
+                                    طريقة. قمنا بقيادتها وتنميتها ، ومن خلال مبادئنا التي علمنا اياها والدنا أن نكون
+                                    مخلصين دائمًا للطرف الآخر وان نعمل بصدق وامانة في كل اعمالنا وان نساعد عملائنا حتى
+                                    لو كان ذلك بدون اجر لانه سياتي يوما يساعدك الناس كما ساعدتهم وقد تكون القوة التي
+                                    تستثمرها في الآخرين مثل عملائكم المخلصين الذين كافحتم لابقائهم في المقدمة. اليوم انا
+                                    وانتم فخورين بأن نعلن أن بعض عملائكم هم الأفضل في أسواقهم في جميع أنحاء العالم ونود
+                                    ان نشكر والدنا الذي علمنا معنى النجاح فشكرا من القلب لوالدنا ولعملائنا الذين هم
+                                    جميعا محط فخرنا.
+                                </p>
+                            </div>
+                            <div class="p-2"><img style="width: 280px;" src="images/asset/signiture.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let tab_buttons = document.querySelectorAll('.nav-pills .nav-link');
+        let contents = document.querySelectorAll('.tab_content');
+        tab_buttons.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                contents.forEach((content) => {
+                    content.classList.remove('active');
+                });
+                tab_buttons.forEach((tab) => {
+                    tab.classList.remove('active');
+                })
+
+                contents[index].classList.add('active');
+                tab_buttons[index].classList.add('active');
+            })
+        });
+    </script>
+    <script src="js/main-1.js"></script>
+    <script src="js/about.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

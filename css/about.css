@@ -1,0 +1,104 @@
+html{
+    font-family: 'Fira Sans', sans-serif !important;
+}
+body{
+    font-family: 'Fira Sans', sans-serif !important;
+    font-weight: normal !important;
+}
+
+.nav-pills .nav-link{
+color: #000 !important;
+cursor: pointer;
+}
+
+.nav-pills .nav-link .active{
+color: red !important;
+cursor: pointer;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: red !important;
+    background-color: none !important;
+    background: none !important;
+}
+
+.tab_content{
+    display: none;
+    padding: 1rem;
+}
+
+
+
+p{
+    margin: 0 !important;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.description p:first-child{
+    font-weight: 600 !important;
+}
+
+.Father-Of-Founders{
+    width: 100px;
+    height: 120px;
+    border-top-right-radius: 20px;
+}
+
+/* @media screen and (max-width:800px){
+    .wraper{
+        height: 40% !important;
+        overflow: hidden;
+    }
+
+    .content{
+        height: 100% !important;
+        padding: 1rem;
+    }
+} */
+
+.tab_content.active{
+    display: block;
+}
+
+.nav-link.active{
+    color: red !important;
+}
+
+
+
+a#navRevenue {
+    padding: 0;
+    padding-top: 8.22px !important;
+}
+
+.father-img{
+    width: 90%;
+    height: 90%;
+    padding-bottom: 20px;
+}
+
+.father-img img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    
+}
+
+@media screen and (max-width:800px){
+    .father-img{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .father-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        
+    } 
+}

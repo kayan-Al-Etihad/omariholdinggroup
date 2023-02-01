@@ -1,0 +1,48 @@
+html{
+    font-family:  'Fira Sans', sans-serif !important;
+}
+body{
+    font-family:  'Fira Sans', sans-serif !important;
+}
+
+.container .paragraph{
+    font-weight: 400;
+    font-family:  'Fira Sans', sans-serif !important;
+}
+
+.container .description{
+    font-weight: 400;
+    font-family:  'Fira Sans', sans-serif !important;
+}
+
+.container .title{
+    font-weight: normal;
+    font-family:  'Fira Sans', sans-serif !important;
+}
+
+.image{
+    width: 100%;
+    height: 400px !important;
+}
+
+.image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.icon1{
+    width: 90px;
+    height: 100px;
+    object-fit: contain;
+}
+.icon2{
+    width: 90px;
+    height: 100px;
+    object-fit: contain;
+}
+
+p.description.InestmentSpan
+{
+    margin: 0 !important;
+}
